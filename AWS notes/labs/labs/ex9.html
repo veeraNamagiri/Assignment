@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+acronym {color:green}
+abbr{color:blue}
+.highlight{text-decoration:underline}
+
+OL.withAlpha {list-style-type:lower-alpha}
+OL.withRoman {list-style-type:lower-roman}
+OL.withUpperAlpha {list-style-type:upper-alpha}
+OL.withUpperRoman {list-style-type:upper-roman}
+
+UL.square {list-style-type:square}
+UL.circle {list-style-type:circle}
+UL.disc {list-style-type:disc}
+
+
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+
+p  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+
+p {
+    border: 1px solid violet;
+}
+p {
+    border: 1px solid blue;
+    padding: 30px;
+}
+
+
+p{
+  border : 10px solid orange;
+  margin : 60px;
+}
+
+<p id="p01">I am different</p>
+#p01 {
+    color: blue;
+}
+
+<p class="error">I am different</p>
+p.error {
+    color: red;
+}
+
+ 
+
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<p>
+ <span id ="htmlTag" class="highlight">
+  <acronym title="Hypertext Markup Language">HTML</acronym> drives the web </span>
+whether you use <abbr title="Internet Explorer">IE</abbr>,chrome,firefox,safari or some other browser,many of us use the web daily .
+
+as the topics are covered in detail in other pluralsight courses <sup>1,2</sup>
+</p>
+<h1>HTML fundamentals</h1>
+<h2>OVerview</h2>
+
+<div id="overviewcontainer">
+<span> see the section on <a href="#terminology">terminology</a>for definitions of terms</span>
+<p>
+<span id="htmltag" class="highlight">
+</p>
+
+<h3> Objectives</h3>
+<ul class="square">
+  <li> Explain the fundamental concepts of html </li>
+  <li> Have fun </li>
+    <ul>
+    <li> creating documents</li>
+    <li> creating memories </li>
+    </ul>
+
+  <li> Mark it up </li>
+</ul>
+
+<h3>outline</h3>
+
+<ol class="withUpperRoman">
+<li> Introduction</li>
+<li><a href="D:\d\html\labs\text.html">Text elements</a></li>
+<li><a href="D:\d\html\labs\lists.html">lists</a></li>
+ <ol start="4" class="withRoman">
+   <li> ordered lists </li>
+   <li> unordered lists </li>
+</ol>
+
+<br/>
+<a name="terminology" title="technical terms">
+<h2> Terminology </h2>
+<dl>
+ <dt> HTML </dt>
+ <dd> Hyper text Markup language used to author web pages </dd>
+ <dt> HTTP </dt>
+<dd> Hyper text transfer protocol </dd>
+</dl>
+
+
+<li>links</li>
+</ol>
+
+</body>
+</html>

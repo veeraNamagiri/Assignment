@@ -1,0 +1,13 @@
+https://app.pluralsight.com/library/courses/javascript-programming-basics/table-of-contents
+
+https://app.pluralsight.com/library/courses/jscript-fundamentals/table-of-contents
+
+https://app.pluralsight.com/library/courses/javascript-from-scratch/table-of-contents
+
+https://app.pluralsight.com/player?course=javascript-programming-basics&author=kyle-simpson&name=javascript-programming-basics-m1&clip=0&mode=live
+
+https://app.pluralsight.com/library/courses/front-end-web-app-html5-javascript-css/table-of-contents
+
+https://app.pluralsight.com/library/courses/html-fundamentals/table-of-contents
+
+https://app.pluralsight.com/library/courses/html-forms/table-of-contents
